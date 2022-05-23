@@ -19,9 +19,6 @@ const App: FunctionComponent = () => {
                                     <div className='card-stacked'>
                                         <div className='card-content'>
                                             <p><strong>{name}</strong></p>
-{/*                                             <p>{hp}</p>
-                                            <p>{cp}</p>
-                                            <p>{types}</p> */}
                                             <p><small>{created.toString()}</small></p>
                                         </div>
                                     </div>
@@ -35,10 +32,3 @@ const App: FunctionComponent = () => {
 }
 
 export default App;
-
-                            {/*{pokemons.map(({id, name, picture, created}) => (
-                            <div className='col s6 m4' key={id}>
-                                <div className='card horizontal'>
-                                    <div className='' >
-                                        <img src={picture} />
-                                    )} */}
